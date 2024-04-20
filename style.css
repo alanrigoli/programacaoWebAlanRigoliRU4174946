@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Cor de fundo escolhida: cinza espacial */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    color: #fff;
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Estilos para os links de navegação */
+nav ul li a:hover {
+    color: #ff0; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para os links de seção */
+section h2 {
+    border-bottom: 1px solid #ccc; /* Linha separadora abaixo do título da seção */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+.menu-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-right li {
+    display: inline;
+    margin-left: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.menu-right li:first-child {
+    margin-left: 0; /* Remove o espaçamento do primeiro item */
+}
+.centralizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
